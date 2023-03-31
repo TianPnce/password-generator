@@ -18,8 +18,8 @@ function generatePassword() {
 }
 
 // prompt for password length is a number
-// if statement i number is above 8 && below 128
 // confirm for lowercase, uppercase, numeric and special characters
+// if statement i number is above 8 && below 128
 // store there response in a variable
 // if statement for each confirm and if it is a yes or true I would push or add ransom characters to a big array of all characters selected so far.
 // for loop while i is less than there answer for num length prompt
@@ -28,13 +28,6 @@ function generatePassword() {
 //have a var declared above for loop
 //that var += theRandomChar
 //return the password var
-
-
-
-
-
-
-
 
 
 // Assignment Code
