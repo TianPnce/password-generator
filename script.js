@@ -9,10 +9,9 @@ var symbols = "!@#$%^&*()-+?";
 // make generatePassword function
 function generatePassword() {
   var length = 8,
-    charset = "ABCDEFGHIJKLMNOPQRSTUVWXZabcdefghijklmnopqrstuvwxz0123456789!@#$%^&*()-+?";
     retVal = "";
-  for (var i = 0, n = charset.length; i < length; ++i) {
-    retVal += charset.charAt(Math.floor(Math.random() * n));
+  for (var i = 0, n = upperCase.length; i < length; ++i) {
+    retVal += UpperCase.charAt(Math.floor(Math.random() * n));
   }
   return retVal;
 }
